@@ -101,12 +101,12 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
 }
 .item-column {
 	position: relative;
@@ -243,6 +243,13 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  background-color: #000;
+}
+
 
 @media all and (max-width: 1180px) {
 	.picture {
